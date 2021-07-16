@@ -1,0 +1,173 @@
+.header {
+    background-color:rgb(255, 216, 24);
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .header .header_img {
+    max-width: 50px;
+    max-height: 50px;
+    background-color: rgb(255, 216, 24);
+  }
+  .header .header_img_second {
+    margin-top: -4%;
+    max-width: 50px;
+    max-height: 50px;
+    background-color: rgb(255, 216, 24);
+  }
+  .header .header_txt {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #CECECE;
+  }
+  
+  .top {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .top .top_header {
+    margin-top: 15px;
+    margin-left: 45%;
+    font-size: 30px;
+    font: bold;
+    color: #030101;
+  }
+  .top .colors {
+    margin-top: -6%;
+  }
+  .top .colors .colors_item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: stretch;
+  }
+  .top .colors .colors_item .colors_item_txt {
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 15px;
+  }
+  .top .colors .colors_item .colors_item_circle {
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 44px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #030101;
+  }
+  
+  .menu_width{
+    width: 20%;
+    margin-left: 25px;
+    margin-bottom: 1%;
+  }
+
+  .check_width{
+    padding-left: 1%;
+    margin-top: 0.6%;
+  }
+
+  .lesson_name {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top:1%;
+    font: bold;
+  }
+  
+  .btn_style{
+    background-color: transparent;
+    margin-left: 15px;
+  }
+
+  .nav_style{
+    margin-top: -3%;
+    margin-left: 5%;
+    width: 30%;
+  }
+
+  .upload_style{
+    width: 260px;
+    margin-left: 15px;
+  }
+
+  .home_work_btn_is_remove, .home_work_btn_browse, .home_work_blocks .home_work_date, .home_work_blocks .home_work_txt {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .home_work_reviewed, .home_work_overdue, .home_work_under_review, .home_work_blocks .home_work_current {
+    max-width: 300px;
+    min-width: 300px;
+    height: 140px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: 25px;
+    margin-top: 15px;
+  }
+  
+  .home_work_blocks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: baseline;
+  }
+  .home_work_blocks .home_work_current {
+    background-color: #CECECE;
+  }
+  
+  .home_work_btn_is_remove button {
+    background-color: #6B7BE1;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+    color: #fff;
+    max-width: 125px;
+    min-width: 125px;
+    max-height: 30px;
+    min-height: 30px;
+  }
+  
+  .home_work_under_review {
+    color: #fff;
+    background-color: #6B7BE1;
+  }
+  
+  .home_work_overdue {
+    background-color: #E16B6B;
+  }
+  
+  .home_work_reviewed {
+    background-color: #6BE177;
+  }
+  .home_work_reviewed button {
+    background-color: #6BE177;
+  }
+  
+  .navigation_style{
+    margin-left: 45%;
+    margin-top:2%;
+  }
+
+  #avatar {
+    float: right;
+  }
+  
+  #white {
+    background-color: #CECECE;
+  }
+  
+  #green {
+    background-color: #6BE177;
+  }
+  
+  #blue {
+    background-color: #6B7BE1;
+  }
+  
+  #red {
+    background-color: #E16B6B;
+  }
